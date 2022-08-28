@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор случайных пользователей</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <div class="wrap">
+        <h3>Генератор случайных пользователей</h3><br>
+        Пол:<br><span id="genderOutput">Пол</span>
+        <p></p>
+        Профессия:<br><span id="professionsOutput">Профессия</span>
+        <p></p>
+        ФИО:<br> <span id="surnameOutput">Фамилия</span><br><span id="firstNameOutput">Имя</span><br><span id="middleNameOutput">Отчество</span>
+        <p></p>
+        Дата рождения:<br><span id="birthYearOutput">Год рождения</span>
+        <p></p>
+        <button type="button" class="btn btn-outline-warning" id="next">Следующий</button>
+        <p></p>
+        <button type="button" class="btn btn-outline-danger" id="clear">Очистить</button>
+    </div>
+    
+    <script src="personGenerator.js"></script>
+    <script src="init.js"></script>
+    </body>
+    </html>

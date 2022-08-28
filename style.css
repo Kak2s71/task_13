@@ -1,0 +1,37 @@
+.wrap {
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e3fee8;
+    color: #9238a8;
+    text-align: center;
+    border: solid 10px #25b9a1;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+  }
+  .wrap:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+
+    z-index: -1;
+    left: -70px;
+    top: 0;
+  }
+  .wrap p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .wrap a {
+    text-decoration: none;
+    color: #25b9a1;
+    font-weight: bold;
+  }
+
+span {
+    font-weight: bold;
+    color: #7f50ff;
+}
